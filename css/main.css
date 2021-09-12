@@ -50,6 +50,8 @@ html {
 	font-size: 10px;
 }
 
+html, body { overflow-x: hidden; }
+
 @media only screen and (max-width:1024px) {
 	html {
 		font-size: 9.411764705882353px;
@@ -1278,21 +1280,25 @@ header .logo a {
 @media only screen and (max-width:1024px) {
 	header .top-bar {
 		left: 60px;
+		right: 60px;
 	}
 }
 @media only screen and (max-width:768px) {
 	header .top-bar {
 		left: 50px;
+		right: 50px;
 	}
 }
 @media only screen and (max-width:600px) {
 	header .top-bar {
 		left: 35px;
+		right: 35px;
 	}
 }
 @media only screen and (max-width:400px) {
 	header .top-bar {
 		left: 25px;
+		right: 25px;
 	}
 }
 
