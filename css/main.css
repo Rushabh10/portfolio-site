@@ -1103,7 +1103,7 @@ header .row {
 	min-height: 66px;
 }
 header .top-bar {
-	display: block;
+	display: inline-flex;
 	background: #b1b8c7;
 	min-width: 220px;
 	min-height: 75px;
