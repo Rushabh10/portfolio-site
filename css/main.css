@@ -1104,9 +1104,9 @@ header .top-bar {
 	display: block;
 	background: #b1b8c7;
 	min-width: 220px;
-	min-height: 66px;
-	position: absolute;
+	min-height: 75px;
 	left: 90px;
+	right: 90px;
 	top: 0;
 	opacity: 70%;
 }
